@@ -1,0 +1,23 @@
+# 虚拟币交易所规则集
+# 用法：模板中 ruleset=💰 虚拟币,clash-classic:<本文件URL>
+payload:
+  - DOMAIN-SUFFIX,binance.com
+  - DOMAIN-SUFFIX,binancezh.com
+  - DOMAIN-SUFFIX,binance.me
+  - DOMAIN-SUFFIX,bnappcdn.com
+  - DOMAIN-SUFFIX,bnbstatic.com
+  - DOMAIN-SUFFIX,okx.com
+  - DOMAIN-SUFFIX,okex.com
+  - DOMAIN-SUFFIX,okcn.com
+  - DOMAIN-SUFFIX,huobi.com
+  - DOMAIN-SUFFIX,htx.com
+  - DOMAIN-SUFFIX,gate.io
+  - DOMAIN-SUFFIX,coinbase.com
+  - DOMAIN-SUFFIX,kraken.com
+  - DOMAIN-SUFFIX,bybit.com
+  - DOMAIN-SUFFIX,mexc.com
+  - DOMAIN-SUFFIX,bitget.com
+  - DOMAIN-SUFFIX,kucoin.com
+  - DOMAIN-SUFFIX,bitfinex.com
+  - DOMAIN-SUFFIX,coingecko.com
+  - DOMAIN-SUFFIX,coinmarketcap.com
