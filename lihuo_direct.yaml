@@ -1,7 +1,0 @@
-# 离火之境 游戏直连规则集（由 subconverter clash-classic 加载）
-# 用法：模板中 ruleset=🎯 全球直连,clash-classic:<本文件URL>
-# 可随时往 payload 里追加域名，追加后无需改模板
-payload:
-  - DOMAIN-SUFFIX,lihoogame.com
-  - DOMAIN-SUFFIX,37.com.cn
-  - DOMAIN-SUFFIX,lihuo.com
