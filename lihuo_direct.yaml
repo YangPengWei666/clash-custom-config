@@ -1,6 +1,8 @@
-# 离火之境 游戏直连规则集
+# 直连规则集（离火之境游戏 + serv00服务器SSH等需要直连的IP）
 # 用法：模板中 ruleset=🎯 全球直连,clash-classic:<本文件URL>
 payload:
   - DOMAIN-SUFFIX,lihuo.com
   - DOMAIN-SUFFIX,lihoogame.com
   - DOMAIN-SUFFIX,37.com.cn
+  # serv00 服务器 SSH 直连（避免走代理导致 IP 被封、SSH 握手失败）
+  - IP-CIDR,213.189.53.91/32,no-resolve
