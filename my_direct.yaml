@@ -1,0 +1,14 @@
+# 自有服务直连规则集
+# 用法：模板中 ruleset=🎯 全球直连,clash-classic:<本文件URL>
+# 收录：离火之境游戏 / 自有域名 / serv00 服务器 SSH
+# 说明：本规则集在模板中位于置顶区，优先级高于 GEOSITE/GEOIP 兜底与 FINAL，
+#       确保这些目标不会被误判到代理或漏网之鱼。
+payload:
+  # ---- 离火之境 游戏 ----
+  - DOMAIN-SUFFIX,lihuo.com
+  - DOMAIN-SUFFIX,lihoogame.com
+  - DOMAIN-SUFFIX,37.com.cn
+  # ---- 自有域名 ----
+  - DOMAIN-SUFFIX,ai.xiaokang.cyou
+  # ---- serv00 服务器 SSH 直连（避免走代理导致 IP 被封、SSH 握手失败）----
+  - IP-CIDR,213.189.53.91/32,no-resolve
