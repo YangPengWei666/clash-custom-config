@@ -9,6 +9,6 @@ payload:
   - DOMAIN-SUFFIX,lihoogame.com
   - DOMAIN-SUFFIX,37.com.cn
   # ---- 自有域名 ----
-  - DOMAIN-SUFFIX,ai.xiaokang.cyou
+  - DOMAIN-SUFFIX,xiaokang.cyou
   # ---- serv00 服务器 SSH 直连（避免走代理导致 IP 被封、SSH 握手失败）----
   - IP-CIDR,213.189.53.91/32,no-resolve
